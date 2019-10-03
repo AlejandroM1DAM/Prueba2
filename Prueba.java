@@ -2,6 +2,7 @@ public class Prueba {
 private String datos = "";
 	private String nombCompleto = "";
 	private String ciudadNacimiento = "";
+	private String localidadActual = "";
 	public Prueba() {
 		
 	}
@@ -13,7 +14,11 @@ private String datos = "";
 		ciudad = ciudadNacimiento;
 		return ciudadNacimiento;
 	}
+	public String localidadActual(String localidad) {
+		localidad = localidadActual;
+		return localidadActual;
+	}
 	public String toString() {
-		return nombCompleto + "\n" +  ciudadNacimiento;
+		return nombCompleto + "\n" +  ciudadNacimiento + "\n" +  localidadActual;
 	}
 }
